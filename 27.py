@@ -12,5 +12,5 @@ class Solution(object):
         return len(nums)
 
 if __name__ == '__main__':
-    s = Soliution()
-    print s.removeElements([1, 2, 3, 5, 7, 2, 6, 2], 6)
+    s = Solution()
+    print s.removeElement([1, 2, 3, 5, 7, 2, 6, 2], 6)
