@@ -4,7 +4,7 @@
 class Solution(object):
     def moveZeroes(self, nums):
         """
-        :type nums: List[int]
+        :type nums: list of int
         :rtype: void Do not return anything, modify nums in-place instead.
         """
         nums.sort(key=lambda x: x == 0)
